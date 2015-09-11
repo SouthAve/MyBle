@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_device_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/tv_battery_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电量：" />
+
+    <TextView
+        android:id="@+id/tv_connect_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未连接"
+        android:textColor="#66ccff" />
+
+    <Button
+        android:id="@+id/bt_connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="连接" />
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="响起来" />
+
+</LinearLayout>

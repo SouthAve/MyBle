@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.myble.MainActivity" >
+
+    <ListView
+        android:id="@+id/lv_deviceList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <Button
+        android:id="@+id/bt_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_deviceList"
+        android:text="scan" />
+
+    <Button
+        android:id="@+id/bt_localbroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_scan"
+        android:text="local broadcast receiver" />
+
+    <Button
+        android:id="@+id/forceoffline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Force Offline" />
+
+    <Button
+        android:id="@+id/savepw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Password" />
+
+    <Button
+        android:id="@+id/querydb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query DataBase" />
+
+    <Button
+        android:id="@+id/replacedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replace data" />
+
+    <EditText
+        android:id="@+id/savefile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forceoffline" />
+
+</LinearLayout>
